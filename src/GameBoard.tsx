@@ -1,6 +1,7 @@
 import { Card } from "./Card";
+import { Pokemon } from "./Pokemon";
 
-export function GameBoard({ pokemonList, onClickCard }) {
+export function GameBoard({ pokemonList, onClickCard }: { pokemonList: Pokemon[], onClickCard: Function}) {
     return (
         <>
             <ul className="flex flex-wrap">
